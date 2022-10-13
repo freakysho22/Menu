@@ -6,35 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href ="css/kurs2.css">
+<style id="usersyle">
 
+/* a{
+  /* цвет фона */ 
+  /* background-color:#f03333 ; */
+/* color font */
+  /* color:aliceblue;
+}
+  a:hover{
+    background-color: #00b9d1;
+    
+  } */ 
+
+
+</style>
 </head>
 <body>
     <h1>Create menu</h1>
     <form name="formMenu">
     <p>
-        Пункты меню:<input 
-        type = "text" size="44" name="elemMenu" value="Main about company, news, product" >
+        Пункты меню:<input id="in1" type = "text" size="44" name="elemMenu" value="Main about company, news, product" >
 
       <p>
-        Font color:<input 
+        Font color:<input id="in2"
         type="color" name="fc" value="#ffffff">
 
       </p>  
 
       <p>
-        background color:<input 
-        type="color" name="bc" value="#f03333">
+        background color:<input id="in3"
+        type="color" name="" value="#f03333">
 
       </p> 
       
       <p>
-        hover color:<input 
+        hover color:<input id="in4"
         type="color" name="hc" value="#00b9d1">
 
       </p> 
       <p> <input 
-        type="button" name="button" value ="create menu"
-        >
+        type="button" name="button" value ="create menu" onClick = "menu()">
 
 
       </p>
@@ -43,9 +55,22 @@
             
     
     </form>
+    <hr>
+    <div id="boxMenu">
+    <!-- <ul>
+      <li><a = href="#">Пункт меню</a></li>
+      <li><a = href="#">Пункт меню</a></li>
+      <li><a = href="#">Пункт меню</a></li>
+       #-void link -->
+    <!-- </ul> --> 
+  </div>
+    <div id="boxpickture">
+
+
+
+    </div>
     <script src ="js/kurs2.js">
 
     </script>
-    
 </body>
 </html>

@@ -1,0 +1,33 @@
+ul{
+    margin-top: 40px;
+    /* отсутсвие элементов маркера */
+    list-style: none;
+    /* перевод из столбика в линию */
+    display:flex;
+    /* border-top; */
+
+}
+
+a{
+    /* внутренний отступ */
+padding:16px;
+
+
+/* внешний отсуп */
+margin: 2px;
+
+/* закругление */
+border-radius: 30px;
+
+
+/* убрали линии подчеркивания */
+text-decoration: none;
+/*плавность  */
+transition: 0.25s linear   ;
+
+}
+
+img{
+    cursor: pointer;
+}
+
