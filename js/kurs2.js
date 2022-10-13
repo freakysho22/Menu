@@ -51,6 +51,6 @@ formMenu.button.value = "change menu";
 function fucnimg(n){
     boxpickture.innerHTML = 
     `
-    <img onclick="boxpickture.innerHTML=''"src="../source/${n}.jpg">
+    <img onclick="boxpickture.innerHTML=''"src="images/${n}.jpg">
     `; 
 }
