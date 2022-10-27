@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let style = ['jaz','bluez', 'gigi ','rap'];
+style[2] = 'rock';
+
+let k = '';
+
+
+ console.log(style)
+      style.splice(style.length-2,1,'classic');
+
+// console.log(k);
+console.log(style);
+// style.pop();
+
+let end = style.pop();
+console.log(end);
+console.log(style);
+
+// add to start 
+
+style.unshift('reggy');
+console.log(style);
+
+
+// console.log(style)
+let s='';
+function ret(){
+    for(i=0;i<style.length;i++){
+        s=style[i];
+
+    }
+
+    console.log(s);
+}
+console.log(ret());
+    </script>
+</body>
+</html>
